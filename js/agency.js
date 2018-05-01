@@ -47,4 +47,14 @@
     $(".navbar").removeClass("d-none");
   })
 
+ <script type="text/javascript">
+    $(document).ready(function(){
+$("col-sm-4").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+	    });
+  </script>
+
 })(jQuery); // End of use strict
